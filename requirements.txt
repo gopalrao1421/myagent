@@ -1,0 +1,12 @@
+# ULTRON AI Assistant - Requirements
+# Core dependencies for the AI assistant
+
+# HTTP client for API requests
+requests>=2.25.1
+
+# For type hints (built-in in Python 3.8+, but good for compatibility)
+typing-extensions>=3.7.4; python_version<"3.8"
+
+# Optional: For development and testing
+# pytest>=6.0.0
+# pytest-cov>=2.10.0
